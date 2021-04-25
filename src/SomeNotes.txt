@@ -1,0 +1,23 @@
+Rules of class component
+
+1. Must be js class
+2. Must extend React.component
+3. Must define the "render" method that returns some JSX code
+
+
+Rules of State
+
+1. Only usable with class components
+2. "State" is a JS obj that contains data relevant to a component
+3. Updatng "state" on a componentcauses the component to instantly render
+4. State must be inited when the component is created
+5. State can be updated only by using the function "setState".
+
+constructor
+render
+.... when content gets first visible on screen....
+componentDidMount
+... sit and wait for updates....
+componentDidUpdate
+...sit and wait until this component is no longer shown . is used for cleanup....
+componentWillUnmount
